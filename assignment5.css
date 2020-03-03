@@ -1,0 +1,44 @@
+body{
+    margin:0;
+    padding: 0;
+}
+ul{
+    width:100%;
+    margin: 0;
+    padding: 0;
+    background-color: #88c1d9;
+}
+ul li{
+    float: left;
+    width: 12.5%;
+    position: relative;
+    background-color: #88c1d9;
+    display: block;
+    text-align: center;
+    height: 30px;
+    padding-top: 15px;
+    font-size: 14px;
+}
+li ul{
+    display: none;
+    margin-top: 12px;
+}
+ul li:hover{
+    background-color: #412c14;
+    color: white;
+}
+ul li:hover >ul {
+    position: absolute;
+    display: block;
+}
+ul li:hover >ul li{
+    float: none;
+}
+li ul li{
+    width: 144px;
+    text-align: center;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
